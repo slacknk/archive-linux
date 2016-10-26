@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sun, 14 Sep 2014 16:05:44 +0400
+Source: taglib
+Binary: libtag1c2a libtag1-vanilla libtag1-dev libtag1-doc libtagc0 libtagc0-dev
+Architecture: source amd64 all
+Version: 1.9.1-2csa10
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Modestas Vainius <modax@debian.org>
+Changed-By: NK <nk@mint>
+Description: 
+ libtag1-dev - audio meta-data library - development files
+ libtag1-doc - audio meta-data library - API documentation
+ libtag1-vanilla - audio meta-data library - vanilla flavour
+ libtag1c2a - audio meta-data library
+ libtagc0   - audio meta-data library - C bindings
+ libtagc0-dev - audio meta-data library - development files for C bindings
+Changes: 
+ taglib (1.9.1-2csa10) UNRELEASED; urgency=medium
+ .
+   * taglib-csa10 < http://rusxmms.sourceforge.net >
+Checksums-Sha1: 
+ 40f41f6a6e1791672995bf007fc511ce12f0c9dd 1326 taglib_1.9.1-2csa10.dsc
+ e8d7f6be28df461bb785a9b30e7c8ad491a39be5 25565 taglib_1.9.1-2csa10.debian.tar.gz
+ f833cbb727ed30686b0428db11c0e7c009c0aadf 17372 libtag1c2a_1.9.1-2csa10_amd64.deb
+ 8f92058b0044ae0908440dcf51ed7634c6240f97 271866 libtag1-vanilla_1.9.1-2csa10_amd64.deb
+ ddc4e89c5f6f8b4e01a9c7f22d0900199652197a 83236 libtag1-dev_1.9.1-2csa10_amd64.deb
+ 527b4e4efb936b9853fa892487971d15541e7548 9117522 libtag1-doc_1.9.1-2csa10_all.deb
+ e38978973e25afba01b52e00ebc3f76c309ae99a 22280 libtagc0_1.9.1-2csa10_amd64.deb
+ 3234fd25e082f3d8c0f8b4f9f6c6513f1316d939 19980 libtagc0-dev_1.9.1-2csa10_amd64.deb
+Checksums-Sha256: 
+ 455c02c956bdd5792e8223dcbf0c0dd109d3e54865e440541bf6fbc214e62459 1326 taglib_1.9.1-2csa10.dsc
+ 59ab4863a3f8572522bef96b287d81d6a87644e83151bc38fb3b52102ccb3e2d 25565 taglib_1.9.1-2csa10.debian.tar.gz
+ 7c5cdf07e23a61a78ae05c76f58e7bf9c6dea1e72012b5636e3bbe021327493f 17372 libtag1c2a_1.9.1-2csa10_amd64.deb
+ 2e377a5b38c724f8edb18a7608a719c13d727780cd4d0f6d78c6b7bd46ffbf6b 271866 libtag1-vanilla_1.9.1-2csa10_amd64.deb
+ 72298a30693b100ae8bcc7d5b8b351a71390ad5b0e65ec53604ce0275c5b3473 83236 libtag1-dev_1.9.1-2csa10_amd64.deb
+ 4759f058ecf0a00c120cd234d4e3e2340f6d530ed1fc746312ec81642728e941 9117522 libtag1-doc_1.9.1-2csa10_all.deb
+ d2aa851a3355d8a72738734cdb92e068fa327d4f0efb2db1d6ce447ccfcd9079 22280 libtagc0_1.9.1-2csa10_amd64.deb
+ 2047091ee0181af02180c21e92aad4ef13c36956fcb006252ef8a73e47675eb2 19980 libtagc0-dev_1.9.1-2csa10_amd64.deb
+Files: 
+ a990b446b95ac53aacf6ab0ae10c15b8 1326 libs optional taglib_1.9.1-2csa10.dsc
+ 5dda2cbe93852c161b1a0eb2f0b13d37 25565 libs optional taglib_1.9.1-2csa10.debian.tar.gz
+ c7e731f472e54db6c5a3a19f37c2da65 17372 libs optional libtag1c2a_1.9.1-2csa10_amd64.deb
+ f606b4e14c4ae09b38ad499894430174 271866 libs optional libtag1-vanilla_1.9.1-2csa10_amd64.deb
+ fcb847b04265ad20ff048e52e5c2cf7c 83236 libdevel optional libtag1-dev_1.9.1-2csa10_amd64.deb
+ e42056f3a565f0ef723d9107c3456c92 9117522 doc optional libtag1-doc_1.9.1-2csa10_all.deb
+ 28ac8fdc8326894bd2708e49222b8dfc 22280 libs optional libtagc0_1.9.1-2csa10_amd64.deb
+ 546b5ef63a943e48c65647b2847011fb 19980 libdevel optional libtagc0-dev_1.9.1-2csa10_amd64.deb
