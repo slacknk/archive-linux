@@ -1,0 +1,183 @@
+nk@dell
+ OS: Slackware 
+ Kernel: i686 Linux 3.10.17-smp
+ Uptime: 74d 6h 1m
+ Packages: 1516
+ Shell: bash 4.2.53
+ Resolution: 2880x1024
+ WM: OpenBox
+ WM Theme: Numix-git
+ GTK Theme: Mint-X-17QF2-16PF3 [GTK2/3]
+ Icon Theme: Faenza-Cupertino-Flux-Dark
+ Font: Sans 10
+ CPU: Intel Core i3-3217U CPU @ 1.8GHz
+ GPU: Mesa DRI Intel(R) Ivybridge Mobile x86/MMX/SSE2
+ RAM: 3040MiB / 5945MiB
+
+
+
+Managers packages:
+ pkgtools
+ + slackpkg
+ + slackpkg+
+ + sbopkg
+
+
+
+┌─[ PRETTY_NAME="Slackware 14.1"
+└─$ find /var/log/packages/ -name "*nk" | sed 's_/var/log/packages/__' | sort
+autoconf-archive-2016.03.20-i686-1nk
+bunsen-faenza-icon-theme-8.1.1.3_git20160127-noarch-3nk
+buuf-icon-theme-3.10-noarch-3nk
+deadbeef-plugin-fb-0.90_git20160209-i686-1nk
+deadbeef-plugin-musical-spectrum-0.0.0_git20151013-i686-1nk
+deadbeef-plugin-quick-search-0.0.0_git20160210-i686-1nk
+deadbeef-plugin-spectrogram-0.0.0_git20150110-i686-1nk
+deadbeef-plugin-waveform-seekbar-0.0.0_git20160101-i686-1nk
+deadbeef-plugin-wf-20141101-i686-2nk
+engrampa-1.14.1_infozip_thunar-i686-1nk
+faenza-crunchbang-icon-theme-1.2_crunchang1-noarch-3nk
+faenza-cupertino-icon-theme-0.0.0_20111015-noarch-2nk
+fb2toepub-1.0_4-i686-1nk
+fbctrl-0.1.1-i686-1nk
+flattr-icon-theme-1.3.12_git20150731-noarch-3nk
+fluxbox-1.3.7.56_git20160701-i686-1nk
+gxneur-0.18.0_git5-i686-1nk
+kega-fusion-3.63-x86-2nk
+kfaenza-patch-icon-theme-0.3-noarch-1nk
+kumir-2.1.0_beta6_build158_660_git20150730-i686-1nk
+librcc-0.2.12-i686-1nk
+luv-icon-theme-0.4.82_git20160607-noarch-3nk
+man-pages-ru-0.98_alt23-noarch-4nk
+menda-icon-theme-0.0.0_git20160526-noarch-3nk
+mint-x-icons-1.3.7_git20160619-noarch-3nk
+mint-x-sf-gtk-theme-0.0.0_20150903-noarch-1nk
+mint-y-icons-1.0.3_git20160619-noarch-3nk
+mintmenu-5.6.9-i686-1nk
+nitrux-icon-theme-3.5.3-noarch-3nk
+numix-openbox-theme-0.0.0_git20141219-noarch-1nk
+opera-developer-38.0.2213.0-x86-1nk
+pidgin-window_merge-0.3-i686-1nk
+psi-plus-0.16.559_git20160525-i686-4nk
+punes-0.100.8_git20160620-i686-4nk
+sardi-icon-theme-5.5_3-noarch-3nk
+super-flat-remix-icon-theme-1.09_git20160502-noarch-3nk
+taglib-1.8_csa9-i686-1nk
+tint2-0.11-i686-1nk
+topmenu-gtk-0.2.2-i686-1nk
+topmenu-qt-0.2.1-i686-1nk
+vertex-icon-theme-0.0.0_beta_git20150506-noarch-3nk
+vokoscreen-2.2.0-i686-1nk
+xf86-video-intel-2.99.917-i486-1nk
+xneur-0.18.0_git5-i686-1nk
+
+
+
+┌─[ REPO_BRANCH=14.1
+└─# sbopkg -c
+...
+antimicro:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  antimicro-2.20.2-i686-2_SBo
+  Repo version:  antimicro-2.14-i686-1_SBo
+arandr:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  arandr-0.1.9-i686-1_SBo
+  Repo version:  arandr-0.1.7.1-i686-1_SBo
+deadbeef:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  deadbeef-0.7.2-i686-1_SBo
+  Repo version:  deadbeef-0.5.6-i686-1_SBo
+djview4:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  djview4-4.10.6-i686-1_SBo
+  Repo version:  djview4-4.10-i686-1_SBo
+faba-icon-theme:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  faba-icon-theme-4.1.2_git20160602-noarch-3_SBo
+  Repo version:  faba-icon-theme-4.0.8-noarch-1_SBo
+faba-mono-icons:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  faba-mono-icons-4.2_git20160430-noarch-3_SBo
+  Repo version:  faba-mono-icons-4.2-noarch-1_SBo
+fbreader:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  fbreader-0.99.4-i686-1_SBo
+  Repo version:  fbreader-0.12.10-i686-2_SBo
+geany:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  geany-1.27-i686-1_SBo
+  Repo version:  geany-1.25-i686-1_SBo
+geany-plugins:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  geany-plugins-1.27-i686-1_SBo
+  Repo version:  geany-plugins-1.25-i686-1_SBo
+imlib2:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  imlib2-1.4.9-i686-1_SBo
+  Repo version:  imlib2-1.4.7-i686-1_SBo
+lxappearance:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  lxappearance-0.6.2-i686-1_SBo
+  Repo version:  lxappearance-0.6.1-i686-1_SBo
+lxpanel:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  lxpanel-0.8.2-i686-1_SBo
+  Repo version:  lxpanel-0.8.0-i686-1_SBo
+moka-icon-theme:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  moka-icon-theme-5.3.2_git20160615-noarch-3_SBo
+  Repo version:  moka-icon-theme-5.0.11-noarch-1_SBo
+nitrogen:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  nitrogen-20160412_34df913_r260-i686-1_SBo
+  Repo version:  nitrogen-20120806_692fdf7-i686-2_SBo
+numix-icon-theme:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  numix-icon-theme-0.3.20160621-noarch-3_SBo
+  Repo version:  numix-icon-theme-0.3.20151121-noarch-1_SBo
+openbox:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  openbox-3.6.1-i686-1_SBo
+  Repo version:  openbox-3.5.2-i686-1_SBo
+opera:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  opera-38.0.2220.31-x86-1_SBo
+  Repo version:  opera-12.16-i686-1_SBo
+qmmp:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  qmmp-0.10.0-i686-2_SBo
+  Repo version:  qmmp-0.8.4-i686-1_SBo
+scummvm:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  scummvm-1.8.0-i686-1_SBo
+  Repo version:  scummvm-1.7.0-i686-1_SBo
+  Note: repo version not obtainable by standard method, may be inaccurate.
+smplayer:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  smplayer-16.6.0.7989-i686-1_SBo
+  Repo version:  smplayer-15.9.0-i686-1_SBo
+snes9x:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  snes9x-1.53.295_git20160415-i686-2_SBo
+  Repo version:  snes9x-1.53-i686-1_SBo
+terminator:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  terminator-0.98-i686-1_SBo
+  Repo version:  terminator-0.97-i686-1_SBo
+transmission:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  transmission-2.92-i686-1_SBo
+  Repo version:  transmission-2.84-i686-3_SBo
+vacuum-im:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  vacuum-im-1.2.5-i686-1_SBo
+  Repo version:  vacuum-im-1.2.4-i686-1_SBo
+viewnior:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  viewnior-1.6-i686-1_SBo
+  Repo version:  viewnior-1.3-i686-1_SBo
+xfce4-whiskermenu-plugin:
+  INSTALLED PACKAGE IS NEWER THAN REPO
+  Installed version:  xfce4-whiskermenu-plugin-1.5.3-i686-1_SBo
+  Repo version:  xfce4-whiskermenu-plugin-1.5.0-i686-1_SBo
